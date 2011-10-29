@@ -29,7 +29,7 @@ dependencies will be automatically downloaded by Maven if they are not found.
 
 The command `mvn package` will build mc^2, and `mvn install` will copy it
 to your local Maven repository. Official builds of mc^2 may be found on
-[Jenkins](http://ci.onarandombox.com/job/mc^2).
+my dropbox. Look at the top of the page for the link to the latest build. I will be adding links to the previous builds in the future once I have some.
 
 Running
 -------

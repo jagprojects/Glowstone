@@ -58,7 +58,7 @@ public abstract class GlowCommand extends Command {
 
     public boolean checkPermission(CommandSender sender, String permission) {
         if (!sender.hasPermission(permission)) {
-            sender.sendMessage(ChatColor.RED + "I'm sorry Dave but I cannot let you do that.");
+            sender.sendMessage(ChatColor.RED + "Nope.avi");
             return false;
         }
         return true;

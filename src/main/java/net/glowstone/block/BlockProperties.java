@@ -2,6 +2,8 @@ package net.glowstone.block;
 
 import java.util.EnumMap;
 
+import net.glowstone.inventory.GlowPlayerInventory;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -150,6 +152,7 @@ public enum BlockProperties {
     }
     
     public ItemStack[] getDrops() {
+    	if(material == Material.STONE && )
         return drops;
     }
     

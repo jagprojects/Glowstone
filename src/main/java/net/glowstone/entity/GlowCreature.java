@@ -63,4 +63,14 @@ public final class GlowCreature extends GlowLivingEntity implements Creature {
         return target;
     }
 
+	public int getTicksLived() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void setTicksLived(int arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

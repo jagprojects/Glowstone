@@ -1,6 +1,9 @@
 package net.glowstone;
 
+import java.util.Map;
+
 import org.bukkit.OfflinePlayer;
+import org.bukkit.entity.Player;
 
 /**
  * Represents a player which is not connected to the server.
@@ -54,5 +57,15 @@ public class GlowOfflinePlayer implements OfflinePlayer {
             server.getOpsList().remove(name);
         }
     }
+
+	public Map<String, Object> serialize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Player getPlayer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
     
 }

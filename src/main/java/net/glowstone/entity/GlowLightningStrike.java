@@ -54,5 +54,15 @@ public class GlowLightningStrike extends GlowWeather implements LightningStrike 
     public Message createUpdateMessage() {
         return null;
     }
+
+	public int getTicksLived() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void setTicksLived(int arg0) {
+		// TODO Auto-generated method stub
+		
+	}
     
 }

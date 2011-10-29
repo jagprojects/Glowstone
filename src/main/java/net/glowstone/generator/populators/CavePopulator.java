@@ -24,7 +24,6 @@ public class CavePopulator extends BlockPopulator {
             this.snake = snake.toArray(new Location[0]);
         }
 
-        @Override
         public void run() {
             for (Location loc : snake) {
                 Block block = loc.getBlock();

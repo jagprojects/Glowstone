@@ -844,4 +844,34 @@ public final class GlowPlayer extends GlowHumanEntity implements Player, Invento
         experience %= 200;
     }
 
+	public int getTicksLived() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void setTicksLived(int arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Player getPlayer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Map<String, Object> serialize() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getPlayerListName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setPlayerListName(String arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

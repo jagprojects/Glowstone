@@ -79,4 +79,14 @@ public final class GlowItem extends GlowEntity implements Item {
         pickupDelay = delay;
     }
 
+	public int getTicksLived() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void setTicksLived(int arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

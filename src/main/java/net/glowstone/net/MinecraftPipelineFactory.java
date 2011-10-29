@@ -25,7 +25,6 @@ public final class MinecraftPipelineFactory implements ChannelPipelineFactory {
         this.server = server;
     }
 
-    @Override
     public ChannelPipeline getPipeline() throws Exception {
         return new StaticChannelPipeline(
             new MinecraftDecoder(),

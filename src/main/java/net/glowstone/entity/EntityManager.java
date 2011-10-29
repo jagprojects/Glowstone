@@ -99,7 +99,6 @@ public final class EntityManager implements Iterable<GlowEntity> {
         getAll(entity.getClass()).remove(entity);
     }
 
-    @Override
     public Iterator<GlowEntity> iterator() {
         return entities.values().iterator();
     }

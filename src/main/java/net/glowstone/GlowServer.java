@@ -73,7 +73,8 @@ public final class GlowServer implements Server {
     /**
      * The configuration the server uses.
      */
-    private static final Configuration config = new Configuration(new File(configDir, "glowstone.yml"));
+    @SuppressWarnings("deprecation")
+	private static final Configuration config = new Configuration(new File(configDir, "mc^2.yml"));
 
     /**
      * The protocol version supported by the server
@@ -407,7 +408,7 @@ public final class GlowServer implements Server {
         // Create worlds
         createWorld(config.getString("server.world-name", "world"), Environment.NORMAL);
         if (getAllowNether()) {
-            createWorld(config.getString("server.world-name", "world") + "_nether", Environment.NETHER);
+            createWorld(config.getString("server.world-name", "world") + "_skylands", Environment.SKYLANDS);
         }
         
         // Finish loading plugins

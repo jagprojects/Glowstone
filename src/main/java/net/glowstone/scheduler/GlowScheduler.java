@@ -61,7 +61,6 @@ public final class GlowScheduler implements BukkitScheduler {
         this.server = server;
         
         executor.scheduleAtFixedRate(new Runnable() {
-            @Override
             public void run() {
                 try {
                     pulse();

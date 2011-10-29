@@ -29,12 +29,10 @@ public class NbtWorldStorageProvider implements WorldStorageProvider {
         service = new NbtChunkIoService();
         meta = new NbtWorldMetadataService(world, dir);
     }
-    @Override
     public ChunkIoService getChunkIoService() {
         return service;
     }
 
-    @Override
     public WorldMetadataService getMetadataService() {
         return meta;
     }

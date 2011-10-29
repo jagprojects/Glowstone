@@ -1,28 +1,24 @@
-Glowstone
+mc^2
 ==========
 
 Introduction
 ------------
 
-Glowstone is an open-source implementation of the
-[Minecraft](http://minecraft.net) server software written in Java, originally
+mc^2 is an offspring of the open-source implementation of the
+[Minecraft](http://minecraft.net) server software written in Java, called [Glowstone](https://github.com/SpaceManiac/Glowstone) which was originally
 forked from Graham Edgecombe's now-defunct
 [Lightstone](https://github.com/grahamedgecombe/lightstone) project.
 
-The official server software has some shortcomings such as the use of threaded,
-synchronous I/O along with high CPU and RAM usage. Glowstone aims to be a
+The official server software has some shortcomings such as the use of threaded, synchronous I/O along with high CPU and RAM usage. mc^2 aims to be a
 lightweight and high-performance alternative.
 
-Glowstone's main aim as a project independent from Lightstone is to offer a
-higher-performance server while maintaining compatability with the multitude
-of plugins available for the popular [Bukkit](http://bukkit.org) server plugin
-development interface. It does this through implementing Bukkit classes and
-loading Bukkit plugins which interface with these classes.
+mc^2's main aim as a project independent from Lightstone is to offer a
+higher-performance server while maintaining compatability with the multitude of plugins available for the popular [Bukkit](http://bukkit.org) server plugin development interface. It does this through implementing Bukkit classes and loading Bukkit plugins which interface with these classes.
 
 Building
 --------
 
-Glowstone can be built with the
+mc^2 can be built with the
 [Java Development Kit](http://oracle.com/technetwork/java/javase/downloads) and
 [Apache Maven](http://maven.apache.org). Maven is also used for dependency
 management.
@@ -31,25 +27,25 @@ You may download and compile [Bukkit](https://github.com/Bukkit/Bukkit)
 yourself if you desire and install it using `mvn install`, but it and other
 dependencies will be automatically downloaded by Maven if they are not found.
 
-The command `mvn package` will build Glowstone, and `mvn install` will copy it
-to your local Maven repository. Official builds of Glowstone may be found on
-[Jenkins](http://ci.onarandombox.com/job/Glowstone).
+The command `mvn package` will build mc^2, and `mvn install` will copy it
+to your local Maven repository. Official builds of mc^2 may be found on
+[Jenkins](http://ci.onarandombox.com/job/mc^2).
 
 Running
 -------
 
-Running Glowstone is simple because all dependencies, including Bukkit, are
+Running mc^2 is simple because all dependencies, including Bukkit, are
 shaded into the output jar at compile time thanks to a nifty Maven plugin.
-Simply execute `java -jar glowstone-0.0.1-SNAPSHOT.jar` along with whatever
+Simply execute `java -jar mc^2_10-28-11.jar` along with whatever
 memory-related options to Java you desire, and the server should start.
 
 By default, configuration is stored in the `config/` subdirectory and logs
 are stored in the `logs/` subdirectory. The main configuration file is
-`config/glowstone.yml`, which replaces CraftBukkit's `server.properties` and
-`bukkit.yml`. Settings from these two files will be copied over to Glowstone's
+`config/mc^2.yml`, which replaces CraftBukkit's `server.properties` and
+`bukkit.yml`. Settings from these two files will be copied over to mc^2's
 configuration during the default configuration generation process.
 
-Glowstone uses a [JLine](http://jline.sf.net)-based server console for command
+mc^2 uses a [JLine](http://jline.sf.net)-based server console for command
 input. On non-Windows systems, console output can also be colored. 
 
 Documentation
@@ -65,6 +61,7 @@ For documentation on the Bukkit API, see the
 Credits
 -------
 
+ * SpaceManiac - author of [Glowstone](https://github.com/SpaceManiac/Glowstone)
  * [The Minecraft Coalition](http://wiki.vg/wiki) - protocol and file formats
    research.
  * [Trustin Lee](http://gleamynode.net) - author of the
@@ -81,6 +78,6 @@ Credits
 Copyright
 ---------
 
-Glowstone is open-source software released under the MIT license. Please see
+mc^2 is open-source software released under the MIT license. Please see
 the `LICENSE` file for details.
 
